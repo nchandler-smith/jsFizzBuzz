@@ -6,19 +6,12 @@ for (let i=1; i<=100; i++) {
 console.log(fbArray);
 
 function FizzBuzz(numberIn){
-  let result = numberIn;
+  var result = '';
+  let fizz =  numberIn % 3 === 0;
+  let buzz =  numberIn % 5 === 0;
 
-  if (numberIn % 3 == 0) {
-    result = 'Fizz';
-  }
-
-  if (numberIn % 5 === 0) {
-    result = 'Buzz';
-  }
-
-  if (numberIn % 15 ===0) {
-    result = 'FizzBuzz';
-  }
-
-  return result
+  if (fizz) result += 'Fizz';
+  if (buzz) result += 'Buzz';
+  if (!(fizz || buzz)) result = numberIn.toString();
+  return result;
 }
