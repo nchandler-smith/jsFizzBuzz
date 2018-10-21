@@ -16,5 +16,9 @@ function FizzBuzz(numberIn){
     result = 'Buzz';
   }
 
+  if (numberIn % 15 ===0) {
+    result = 'FizzBuzz';
+  }
+
   return result
 }
