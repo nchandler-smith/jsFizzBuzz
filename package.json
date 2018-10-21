@@ -1,0 +1,24 @@
+{
+  "name": "js_fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchandlersmith/js_fizzbuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchandlersmith/js_fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/nchandlersmith/js_fizzbuzz#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.22.0"
+  }
+}
