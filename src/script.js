@@ -8,5 +8,9 @@ console.log(fbArray);
 function FizzBuzz(numberIn){
   let result = numberIn;
 
+  if (result % 3 == 0){
+    result = 'Fizz'
+  }
+
   return result
 }
